@@ -12,7 +12,7 @@ import tarfile
 from pathlib import Path
 from tqdm import tqdm
 
-BASE_DIR     = '/media/isesat/e8188905-1ffc-4de1-83b6-ac2addc2a941'
+BASE_DIR     = '/your/path'
 VGG_DIR      = os.path.join(BASE_DIR, 'VGG-Face2', 'data')
 EXTRACT_DIR  = os.path.join(BASE_DIR, 'vggfaces_sampled')
 TARGET_TOTAL = 500000
